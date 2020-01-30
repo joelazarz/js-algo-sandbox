@@ -14,11 +14,11 @@ function reverseIntTwo(int) {
 // easier to understand
 // let int = -23
 function reverseIntThree(int) {
-  const reversed = int
-    .toString()
-    .split('')
-    .reverse()
-    .join('');
+  const reversed = int              // -23
+    .toString()                     // "-23"
+    .split('')                      // [-,2,3]
+    .reverse()                      // [3,2,-]
+    .join('');                      // "32-"
 
   return parseInt(reversed) * Math.sign(int);       // -32
 }
