@@ -11,15 +11,15 @@ function reverse(str) {
 /////   let str = 'hello'
 function reverseTwo(str) {
   return str
-  .split('')      // [h,e,l,l,o]
-  .reverse()      // [o,l,l,e,h]
-  .join('');      // olleh
+  .split('')        // [h,e,l,l,o]
+  .reverse()        // [o,l,l,e,h]
+  .join('');        // olleh
 };
 
 
 /////   let str = 'hello'
 function reverseThree(str) {
-  let reversed = '';                      //
+  let reversed = '';                      // ''
   for (let character of str) {
     reversed = character + reversed;      // h, eh, leh, lleh, olleh    
   };
