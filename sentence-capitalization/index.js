@@ -14,7 +14,7 @@ function capitalize_alt(str) {
   };
 
   return newArr.join(' ');
-}
+};
 
 
 // 
@@ -26,7 +26,7 @@ function capitalize(str) {
   };
 
   return words.join(' ');
-}
+};
 
 
 // how else can we capitalize?
@@ -38,11 +38,11 @@ function capitalize_alt2(str) {
       result += str[i].toUpperCase();
     } else {
       result += str[i];
-    }
-  }
+    };
+  };
 
   return result;
-}
+};
 
 
 module.exports = capitalize; 
