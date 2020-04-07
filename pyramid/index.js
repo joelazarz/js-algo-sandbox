@@ -8,7 +8,7 @@ function pyramid(n) {
       if (midpoint - row <= column && midpoint + row >= column) {
         level += '#';
       } else {
-        level += '';
+        level += ' ';
       };
     };
 
